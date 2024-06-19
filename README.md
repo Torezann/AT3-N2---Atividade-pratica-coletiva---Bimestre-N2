@@ -117,8 +117,8 @@ O projeto está organizado nas seguintes classes:
 
    No terminal, navegue até o diretório do projeto e execute os seguintes comandos:
 
-    javac -cp gson-2.8.9.jar src/main/java/servidor/*.java
-    java -cp gson-2.8.9.jar:src/main/java servidor.ServidorBiblioteca
+       javac -cp gson-2.8.9.jar src/main/java/servidor/*.java
+       java -cp gson-2.8.9.jar:src/main/java servidor.ServidorBiblioteca
     
    Isso iniciará o servidor na porta 12345.
 
@@ -126,8 +126,8 @@ O projeto está organizado nas seguintes classes:
 
    Abra um novo terminal, navegue até o diretório do projeto e execute os seguintes comandos:
 
-    javac -cp gson-2.8.9.jar src/main/java/cliente/*.java
-    java -cp gson-2.8.9.jar:src/main/java cliente.ClienteBiblioteca
+       javac -cp gson-2.8.9.jar src/main/java/cliente/*.java
+       java -cp gson-2.8.9.jar:src/main/java cliente.ClienteBiblioteca
     
   Isso conectará o cliente ao servidor.
 
