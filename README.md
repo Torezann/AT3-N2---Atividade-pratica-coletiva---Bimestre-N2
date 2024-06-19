@@ -115,16 +115,16 @@ O projeto está organizado nas seguintes classes:
 
 4. **Compilar e Executar o Servidor**
 
-  No terminal, navegue até o diretório do projeto e execute os seguintes comandos:
+   No terminal, navegue até o diretório do projeto e execute os seguintes comandos:
 
     javac -cp gson-2.8.9.jar src/main/java/servidor/*.java
     java -cp gson-2.8.9.jar:src/main/java servidor.ServidorBiblioteca
     
-  Isso iniciará o servidor na porta 12345.
+   Isso iniciará o servidor na porta 12345.
 
 5. **Compilar e Executar o Cliente**
 
-  Abra um novo terminal, navegue até o diretório do projeto e execute os seguintes comandos:
+   Abra um novo terminal, navegue até o diretório do projeto e execute os seguintes comandos:
 
     javac -cp gson-2.8.9.jar src/main/java/cliente/*.java
     java -cp gson-2.8.9.jar:src/main/java cliente.ClienteBiblioteca
@@ -139,27 +139,27 @@ Depois de executar o cliente, você verá um prompt onde poderá digitar comando
   Listar Livros
   
   Comando: LISTAR
-  Descrição: Lista todos os livros disponíveis na biblioteca.
+  - Descrição: Lista todos os livros disponíveis na biblioteca.
   
   Cadastrar Livro
   
-  Comando: CADASTRAR;autor;nome;genero;numeroExemplares
-  Exemplo: CADASTRAR;J.K. Rowling;Harry Potter;Fantasia;10
-  Descrição: Cadastra um novo livro na biblioteca.
+  - Comando: CADASTRAR;autor;nome;genero;numeroExemplares
+  - Exemplo: CADASTRAR;J.K. Rowling;Harry Potter;Fantasia;10
+  - Descrição: Cadastra um novo livro na biblioteca.
   
   Alugar Livro
   
-  Comando: ALUGAR;nomeDoLivro
-  Exemplo: ALUGAR;Harry Potter
-  Descrição: Aluga um exemplar do livro especificado pelo nome.
+  - Comando: ALUGAR;nomeDoLivro
+  - Exemplo: ALUGAR;Harry Potter
+  - Descrição: Aluga um exemplar do livro especificado pelo nome.
   
   Devolver Livro
   
-  Comando: DEVOLVER;nomeDoLivro
-  Exemplo: DEVOLVER;Harry Potter
-  Descrição: Devolve um exemplar do livro especificado pelo nome.
+  - Comando: DEVOLVER;nomeDoLivro
+  - Exemplo: DEVOLVER;Harry Potter
+  - Descrição: Devolve um exemplar do livro especificado pelo nome.
   
   Sair
   
-  Comando: SAIR
-  Descrição: Encerra a conexão do cliente com o servidor.
+  - Comando: SAIR
+  - Descrição: Encerra a conexão do cliente com o servidor.
