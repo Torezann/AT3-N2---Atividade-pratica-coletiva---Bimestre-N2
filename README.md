@@ -128,14 +128,14 @@ O projeto está organizado nas seguintes classes:
 
        javac -cp gson-2.8.9.jar src/main/java/cliente/*.java
        java -cp gson-2.8.9.jar:src/main/java cliente.ClienteBiblioteca
-    
-  Isso conectará o cliente ao servidor.
 
-##Usando o Programa
+   Isso conectará o cliente ao servidor.
+
+## Usando o Programa
 
 Depois de executar o cliente, você verá um prompt onde poderá digitar comandos. Aqui estão os comandos disponíveis:
 
-###Comandos Disponíveis
+### Comandos Disponíveis
   Listar Livros
   
   Comando: LISTAR
